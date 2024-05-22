@@ -1,0 +1,26 @@
+/* File: Services.css */
+.services {
+  padding: 2rem;
+  background-color: #18717c; /* Light blue background */
+  color: #f0ecec; /* Dark text color for better contrast */
+}
+
+.service-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex: 1 1 calc(33.333% - 2rem);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(25, 2, 2); /* Ensure each service item has a white background */
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}

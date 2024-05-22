@@ -1,0 +1,26 @@
+/* File: Projects.css */
+.projects {
+  padding: 2rem;
+  background-color: #134507; /* Light grey background */
+  color: #333; /* Dark text color for better contrast */
+}
+
+.project-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  flex: 1 1 calc(33.333% - 2rem);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: white; /* Ensure each project item has a white background */
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}

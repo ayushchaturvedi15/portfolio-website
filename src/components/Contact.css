@@ -1,0 +1,11 @@
+/* File: Contact.css */
+.contact {
+  text-align: center;
+  padding: 2rem;
+  background-color: #6973da; /* Light coral background */
+  color: #333; /* Dark text color for better contrast */
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
